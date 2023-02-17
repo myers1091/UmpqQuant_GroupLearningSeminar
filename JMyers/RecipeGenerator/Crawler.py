@@ -58,5 +58,3 @@ def parse_sitemap( url,headers):
 
     #returns the dataframe
     return panda_out
-mylist = parse_sitemap("https://www.allrecipes.com/sitemap.xml", ["loc" ])
-print(mylist['loc'].head())
